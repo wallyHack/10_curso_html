@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <table border="1" width="500" cellspacing="4" cellpadding="5"> 
+        <caption>Tabla de Posiciones</caption> <!-- titulo de la tabla -->
+        <thead> <!-- cabecera de la tabla -->
+            <tr>
+                <th>Equipo</th>
+                <th>Puntos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rojo</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Amarillo</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Azul</td>
+                <td rowspan="2">78</td> <!-- rowspan.- combina las celdas -->
+            </tr>
+            <tr>
+                <td>Verde</td>
+                <!-- <td>78</td> -->
+            </tr>            
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <!-- colspan.- combina las columnas -->
+                <td colspan="2">Posiciones despues de 6 partidos</td> 
+                <!-- <td>&nbsp;</td> espacio en blanco -->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
